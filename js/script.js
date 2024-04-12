@@ -10,6 +10,28 @@ const createPet = function ("name", "species") {
             return `<name> needs a nap. Zzz...`
             this.isTired = 1;
         }
+        pet.play = function(){
+if (isTired === 10){
+    return `Too tired to play`;
+    this.sleep()
+} else ( isTired < 10){
+    console.log(Yay ${this.name} loves to play!);
+    pet()
+    
+}
+
+
+}
+
+        }
     };
-};
-//some mistakes here... want to completely debug when it's all said and done// this isn't commenting out
+
+
+const sora = createPet("Sora", "ferret");
+const clover = ("Clover", "rabbit");
+const baxter = ("Baxter", "hamster");
+const cleo = ("Cleo", "rat");
+const francine = ("Francine", "turtle");
+
+console.log(sora, clover, baxter, cleo, francine);
+
