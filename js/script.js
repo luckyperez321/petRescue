@@ -6,7 +6,6 @@ const createPet = function (name, species) {
         name: name,
         species: species,
         isTired: 5,
-
         sleep: function () {
             console.log(`${this.name} needs a nap. Zzz...`);
             this.isTired = 1;
@@ -40,10 +39,10 @@ baxter.sleep();
 clover.isTired = 8;
 francine.isTired = 9;
 
-const allPets = ["sora", "clover", "baxter", "cleo", "francine"];
+const allPets = [sora, clover, baxter, cleo, francine];
 //console.log(allPets);
 
-/*VERY CONFUSED ABOUT STEP 4 IN FIRST PART. DOES IT WANTT TO SAY OBJECT OR THE ACTUAL NAMES IN THE CONSOLE.LOG WHICH ONE IS CORRECT*/
+
 
 const showPets = function (petArray) {
     pets.innerHTML = "";
