@@ -26,6 +26,7 @@ const createPet = function (name, species) {
 
 
 
+
 const sora = createPet("Sora", "ferret");
 const clover = createPet("Clover", "rabbit");
 const baxter = createPet("Baxter", "hamster");
